@@ -1,0 +1,5 @@
+<TABLE>
+    <TABLE_NAME>{{ABI}}_TEMPLATE</TABLE_NAME>
+    <DESCRIPTION>Table Example for xx {{ABI}}</DESCRIPTION>
+    <OWNER>{{ABI}}USER</OWNER>
+</TABLE>
