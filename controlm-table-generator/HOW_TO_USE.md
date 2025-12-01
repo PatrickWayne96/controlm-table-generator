@@ -1,23 +1,17 @@
-# Come usare il Table Generator
+HOW TO USE – Control-M Table Generator
+======================================
 
-## 1. Modifica il template
+This guide explains how to use the Control-M Table Generator to produce XML
+tables starting from a template and a list of ABI codes.
 
-Apri `templates/template_table.xml` e usa i placeholder:
+1. Prepare the Template:
+   Edit templates/template_table.xml and use placeholder {{ABI}}.
 
-- `{{ABI}}` → sostituito automaticamente
+2. Edit the ABI List:
+   Add one ABI per line in abi_list.txt.
 
-## 2. Modifica la lista ABI
+3. Run the Generator:
+   python src/generate_tables.py
 
-Aggiungi o rimuovi ABI in:
-
-
-## 3. Esegui il generatore
-
-Da terminale:
-
-
-## 4. Controlla l’output
-
-Verrà creato:
-
-Con una tabella per ogni ABI.
+4. Output:
+   Output file will be written to output/tables_generated.xml
